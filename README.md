@@ -28,11 +28,11 @@ GPR :
 
 # Arithmetic-unit:
 
-    Instruction Set:
+    Instruction Register:
     
 ![image](https://github.com/kanishk1605/16-bit-simple-instruction-set-processor/assets/105859363/624b1023-e5b9-432e-b38b-95fd8e9f0a02)
 
-  1. 32 bit register
+  1. 32-bit register
   2. Fields help to easily recognize the type of data represented by a specific set of a bit
 
   31 -27 :
