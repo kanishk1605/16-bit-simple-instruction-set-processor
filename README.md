@@ -66,4 +66,5 @@ GPR :
   3. The immediate data maximum could be of size 16
 
 Block Diagram:
+
 ![image](https://github.com/kanishk1605/16-bit-simple-instruction-set-processor/assets/105859363/6feb15a1-fc41-428f-b92c-3e99e7a6490c)
