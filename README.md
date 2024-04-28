@@ -68,3 +68,6 @@ GPR :
 Block Diagram:
 
 ![image](https://github.com/kanishk1605/16-bit-simple-instruction-set-processor/assets/105859363/6feb15a1-fc41-428f-b92c-3e99e7a6490c)
+
+
+![image](https://github.com/kanishk1605/16-bit-simple-instruction-set-processor/assets/105859363/4fead36d-6cb1-4f49-8442-70674414e598)
