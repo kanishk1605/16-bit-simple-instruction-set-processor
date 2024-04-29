@@ -108,6 +108,12 @@ Logical operations supported in our project are:
               a. Indicates whether there was an arithmetic overflow during the operation.
               b. It indicates that we have an unexpected result during an arithmetic operation.
 
+
+Block Diagram:
+
+![image](https://github.com/kanishk1605/16-bit-simple-instruction-set-processor/assets/105859363/09f9328f-159d-4ca9-9516-25e1f7ab8e53)
+
+
 # Program-and-Data-Memory:
     
       
