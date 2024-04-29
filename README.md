@@ -91,9 +91,10 @@ Logical operations supported in our project are:
 
       The different condition flags in the processor are:
 
-        1. SIGN Flag:
-            a. It is used to indicate whether the result is positive or negative.
-            b. It is used specifically in Subtraction operations where, if the result is negative, we need to take 2's complement of the result of subtraction
+          1. SIGN Flag:
+              a. It is used to indicate whether the result is positive or negative.
+              b. It is used specifically in Subtraction operations where, if the result is negative, we need to take 2's complement of the result of subtraction
+           
           2. ZERO Flag:
               a. It is Useful in Comparison operation.
               b. If we subtract 2 numbers and Z is set, then the number is equal.
