@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="845.001 ns"></ZoomEndTime>
+      <Cursor1Time time="103.271 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="137"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sys_rst" type="logic">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/din" type="array">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/inst_mem" type="array">
+      <obj_property name="ElementShortName">inst_mem[15:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_mem[15:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/data_mem" type="array">
+      <obj_property name="ElementShortName">data_mem[15:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[15:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/GPR" type="array">
+      <obj_property name="ElementShortName">GPR[31:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">GPR[31:0][15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/SGPR" type="array">
+      <obj_property name="ElementShortName">SGPR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SGPR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/mul_res" type="array">
+      <obj_property name="ElementShortName">mul_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/SRC1" type="array">
+      <obj_property name="ElementShortName">SRC1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SRC1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/IMM_DATA" type="array">
+      <obj_property name="ElementShortName">IMM_DATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IMM_DATA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/DATA" type="array">
+      <obj_property name="ElementShortName">DATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/DATA_MEM" type="array">
+      <obj_property name="ElementShortName">DATA_MEM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_MEM[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sign" type="logic">
+      <obj_property name="ElementShortName">sign</obj_property>
+      <obj_property name="ObjectShortName">sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/overflow" type="logic">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/carry" type="logic">
+      <obj_property name="ElementShortName">carry</obj_property>
+      <obj_property name="ObjectShortName">carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/temp_sum" type="array">
+      <obj_property name="ElementShortName">temp_sum[16:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_sum[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/jmp_flag" type="logic">
+      <obj_property name="ElementShortName">jmp_flag</obj_property>
+      <obj_property name="ObjectShortName">jmp_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/count" type="array">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/idle" type="array">
+      <obj_property name="ElementShortName">idle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/fetch_inst" type="array">
+      <obj_property name="ElementShortName">fetch_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fetch_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/dec_exec_inst" type="array">
+      <obj_property name="ElementShortName">dec_exec_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_exec_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/next_inst" type="array">
+      <obj_property name="ElementShortName">next_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sense_halt" type="array">
+      <obj_property name="ElementShortName">sense_halt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sense_halt[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/delay_next_inst" type="array">
+      <obj_property name="ElementShortName">delay_next_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_next_inst[31:0]</obj_property>
+   </wvobject>
+</wave_config>
