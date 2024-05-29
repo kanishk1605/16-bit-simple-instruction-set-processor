@@ -115,6 +115,33 @@ Block Diagram:
 
 
 # Program-and-Data-Memory:
-    
-      
+
+
 ![image](https://github.com/kanishk1605/16-bit-simple-instruction-set-processor/assets/105859363/4fead36d-6cb1-4f49-8442-70674414e598)
+
+
+Usually, we require memory for 2 things
+1. To store temporary data
+       I. Because we have limited capabilities with reg
+       II. Only store 32 16-bit data in our reg. So, if we require more than this, we need some local memory to store the data temporarily. Which can be retrieved and processed
+2. To store the Program itself
+
+# Von Neumann Architecture :
+    
+    1. We have a single memory that will be used for both
+        I. Storing of temporary data
+        II. Instructions that we want to execute on a processor
+    2. We have a single bus through which we will be accessing both data as well as instruction
+
+Limitation: We could access either data or an instruction at a time. This is known as the Von Neumann Bottleneck
+Advantage: Simple as we have single memory and we require less RTL as compared
+
+# Harvard Architecture:
+
+    1. It has independent memory for data as well as program
+    2. Data memory: to store temporary data
+    3. Instruction memory: to store a series of instructions that we plan to execute on a processor
+
+Advantage: You could access data memory and instruction memory at the same time
+Limitation: This cost us adding an extra RTL for handling the logic    
+      
